@@ -7,7 +7,7 @@
 .index-intro {
 	background-image: url('../../images/index-background.jpg');
 	height: 776px;
-	position: absolute;
+	position: relative;
 	width: 100%;
 
 	.intro-content {
@@ -15,7 +15,8 @@
 
 		img {
 			display: block;
-			margin: 5em auto 0 auto;
+			margin: 0 auto 0 auto;
+			padding: 5em 0 0 0;
 		}
 
 		h1.intro-statement {
@@ -73,6 +74,24 @@
 				text-decoration: none;
 				text-transform: uppercase;
 			}
+		}
+	}
+}
+
+.index-main-content {
+	@include outer-container;
+
+	.volunteer-teaser {
+		@include span-columns(6);
+		background-color: $brand-teal;
+		margin: 1em 0 0 0;
+
+		.volunteer-text {
+			padding: 2em;
+		}
+
+		p {
+			color: white;
 		}
 	}
 }

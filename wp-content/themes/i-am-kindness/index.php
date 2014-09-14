@@ -26,5 +26,19 @@ get_header( 'home' ); ?>
 		</ul>
 	</div>
 </div>
+<div class="index-main-content">
+	<div class="volunteer-teaser">
+		<div class="volunteer-text">
+			<h2>Volunteer</h2>
+			<p>I AM Kindness is always looking for volunteers preform random acts of kindess around the Twin Cities. Spend one afternoon giving make-overs to the elderly or an evening distributing flowers to strangers on Nicolet. Events are held approximately once a month. The best part? There’s no commitment! Attend one or attend all!</p>
+			<form class="index-volunteer pure-form">
+				<fieldset>
+					<input type="email" placeholder="Email">
+					<button type="submit" class="pure-button pure-button-primary">Sign in</button>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>	
 
 <?php get_footer(); ?>
