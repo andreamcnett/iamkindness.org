@@ -88,10 +88,73 @@
 
 		.volunteer-text {
 			padding: 2em;
+
+			p,
+			h2 {
+				color: white;
+			}
+		}
+	}
+
+	.donate-teaser {
+		@include omega;
+		@include span-columns(6);
+		margin: 1em 0 0 0;
+
+		.donate-text {
+			@include span-columns(4 of 6);
+			padding: 2em 0 2em 2em;
+			margin-right: 0;
+
+			p,
+			h2 {
+				color: $brand-teal;
+			}
 		}
 
-		p {
-			color: white;
+		.donate-image {
+			@include span-columns(2 of 6);
+			padding-top: 2em;
+
+			img {
+				@include fill-parent;
+			}
+		}
+
+		.donate-buttons {
+			padding: 0 0 0 2em;
+		}
+	}
+
+	.blog-teaser {
+		@include span-columns(12);
+		margin-top: 2em;
+
+		.blog-image {
+			@include span-columns(6 of 12);
+
+			img {
+				@include fill-parent;
+			}
+		}
+
+		.blog-text {
+			@include span-columns(6 of 12);
+			@include omega;
+			padding: 0;
+
+			h2,
+			p {
+				color: $brand-teal;
+			}
+
+			h3 {
+				margin: 0 0 .5em 0;
+			}
+
+			h5 {
+			 	margin: 1em 0 0 0;
+			 }
 		}
 	}
 }

@@ -3,7 +3,6 @@
 /***********/
 
 h2 {
-	color: white;
 	font-family: "proxima-nova",sans-serif;
 	font-size: 3em;
 	font-style: normal;
@@ -12,10 +11,46 @@ h2 {
 	margin: 0;
 }
 
+ h3 {
+	color: $brand-teal;
+	font-family: "minion-pro",serif;
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h5 {
+	color: $brand-teal;
+	font-family: "source-sans-pro",sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 700;
+}
+
 p {
 	font-family: "source-sans-pro",sans-serif;
 	font-size: 1em;
 	font-style: normal;
+	font-weight: 300;
+	margin: 0 0 1em 0;
+}
+
+a.more {
+	color: $brand-teal;
+	font-family: "minion-pro",serif;
+	font-style: italic;
+	font-size: 1.25em;
 	font-weight: 400;
-	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+
+	i {
+		background-color: $brand-green;
+		border-radius: 5px;
+		color: $brand-teal;
+		font-size: .8em;
+		margin: 0 2em 0 .5em;
+		padding: 7px 10px 5px 10px;
+	}
 }

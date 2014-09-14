@@ -4244,6 +4244,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/i-am-kindness\/images\/index-blog-teaser.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85677,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/index-blog-teaser.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/index-blog-teaser.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/i-am-kindness\/images\/index-donate-teaser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84366,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/index-donate-teaser.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/index-donate-teaser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/i-am-kindness\/images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4446,6 +4468,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/styles\/components\/body.scss",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/styles\/css\/body.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/i-am-kindness\/styles\/components\/forms.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/styles\/components\/forms.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/styles\/css\/forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
