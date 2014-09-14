@@ -61,7 +61,7 @@ get_header( 'home' ); ?>
 			<h5 class="date">10.15.14</h5>
 			<h3 class>Ridiculus Tortor Justo Ligula Vehicula</h3>
 			<p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-			<a class="more">Read More <i class="fa fa-chevron-right"></i>
+			<a class="more">Read More <i class="fa fa-chevron-right"></i></a>
 		</div>
 	</div>
 </div>	

@@ -10,13 +10,19 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'i-am-kindness' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'i-am-kindness' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'i-am-kindness' ), 'i-am-kindness', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer class="footer">
+		<div class="footer-text">
+			<div class="copyright">
+				<p>&copy;<?php echo date('Y'); ?> I AM Kindness</p>
+			</div>
+			<div class="contact">
+				<p>hello@iamkindness.com</p>
+			</div>
+			<div class="social">
+				<p><a href="https://www.facebook.com/IAMKINDNESS"><i class="fa fa-facebook"></i></a></p>
+			</div>
+		</div>
+	</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

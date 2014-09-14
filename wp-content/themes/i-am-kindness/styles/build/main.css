@@ -337,3 +337,53 @@ a.more {
     font-size: .8em;
     margin: 0 2em 0 .5em;
     padding: 7px 10px 5px 10px; }
+
+/***********/
+/* FORMS.SCSS */
+/***********/
+/***********/
+/* FOOTER.SCSS */
+/***********/
+footer {
+  background-color: #c2c2c2;
+  height: 4em;
+  margin-top: 2em; }
+  footer .footer-text {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    footer .footer-text:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer .footer-text p {
+      color: white;
+      padding: 1em 0 0 0; }
+    footer .footer-text i {
+      color: white;
+      font-size: 1.25em; }
+    footer .footer-text .copyright {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      footer .footer-text .copyright:last-child {
+        margin-right: 0; }
+    footer .footer-text .contact {
+      margin-right: 0;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      text-align: center; }
+      footer .footer-text .contact:last-child {
+        margin-right: 0; }
+    footer .footer-text .social {
+      margin-right: 0;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      text-align: right; }
+      footer .footer-text .social:last-child {
+        margin-right: 0; }
