@@ -1,0 +1,42 @@
+/***********/
+/* HEADER.SCSS */
+/***********/
+
+.header {
+	background-color: $brand-teal;
+	height: 5.5em;
+}
+
+nav {
+	@include outer-container;
+
+	.logo {
+		display: inline;
+		margin-top: 5px;
+		width: 160px;
+	}
+
+	ul.menu {
+		margin-top: 5px;
+		list-style-type: none;
+		margin: 0;
+
+		li {
+			border: 2px solid $brand-green;
+			display: inline-block;
+			margin: 1.5em 0 0 2em;
+			text-align: center;
+			width: 160px;
+		}
+
+		a {
+			color: white;
+			font-family: "minion-pro",serif;
+			font-style: italic;
+			font-size: 1.5em;
+			font-weight: 400;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+	}
+}

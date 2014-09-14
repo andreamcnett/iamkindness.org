@@ -1,0 +1,78 @@
+/***********/
+/* LAYOUT.SCSS */
+/***********/
+
+/*index.php*/
+
+.index-intro {
+	background-image: url('../../images/index-background.jpg');
+	height: 776px;
+	position: absolute;
+	width: 100%;
+
+	.intro-content {
+		@include outer-container;
+
+		img {
+			display: block;
+			margin: 5em auto 0 auto;
+		}
+
+		h1.intro-statement {
+			background-color: $brand-green;
+			color: $brand-teal;
+			font-family: "minion-pro",serif;
+			font-style: italic;
+			font-size: 2em;
+			font-weight: 400;
+			margin: 2.5em 0 0 0;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		h4 {
+			color: white;
+			font-family: "proxima-nova",sans-serif;
+			font-size: 1.5em;
+			font-style: normal;
+			font-weight: 100;
+			letter-spacing: .05em;
+			margin: 2.5em 0 0 0;
+			text-align: center;
+			text-transform: uppercase;
+
+			i {
+				background-color: $brand-green;
+				border-radius: 5px;
+				color: $brand-teal;
+				font-size: .8em;
+				padding: 7px 10px 5px 10px;
+			}
+		}
+
+		ul.index-menu {
+			float: center;
+			list-style-type: none;
+			margin: 3em 0 0 0;
+			padding: 0;
+			text-align: center;
+
+			li {
+				border: 2px solid $brand-green;
+				display: inline-block;
+				margin: 1.5em 1em 0 1em;
+				width: 160px;
+			}
+
+			a {
+				color: white;
+				font-family: "minion-pro",serif;
+				font-style: italic;
+				font-size: 1.5em;
+				font-weight: 400;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

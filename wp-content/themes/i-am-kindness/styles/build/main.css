@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* Neat 1.7.0.pre
+ * http://neat.bourbon.io
+ * Copyright 2012–2014 thoughtbot, inc.
+ * MIT License */
+/**
+ * Disable all deprecation warnings. Defaults to `false`. Set with a `!global` flag.
+ *
+ * @type Bool
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/**
+ * Makes an element a outer container by centring it in the viewport, clearing its floats, and setting its `max-width`.
+ *
+ * Although optional, using `outer-container` is recommended. The mixin can be called on more than one element per page, as long as they are not nested.
+ *
+ * @param {Number} $local-max-width ($max-width) - Max width to be applied to the element. Can be a percentage or a measure.
+ *
+ * @example scss
+ *  .element {
+ *    @include outer-container(100%);
+ *  }
+ *
+ * @example css
+ *  .element {
+ *    *zoom: 1;
+ *    max-width: 100%;
+ *    margin-left: auto;
+ *    margin-right: auto;
+ *  }
+ *
+ *  .element:before, .element:after {
+ *    content: " ";
+ *    display: table;
+ *  }
+ *
+ *  .element:after {
+ *    clear: both;
+ *  }
+ */
+/**
+ * Changes the display property used by other mixins called in the code block argument.
+ *
+ * @param {String} $display (block) - Display value to be used within the block. Can be `table` or `block`.
+ *
+ * @example scss
+ *   @include display(table) {
+ *    .display-table {
+ *      @include span-columns(6);
+ *     }
+ *   }
+ *
+ * @example css
+ *   // CSS
+ *   .display-table {
+ *      display: table-cell;
+ *      ...
+ *   }
+ */
+/**
+ * Changes the direction property used by other mixins called in the code block argument.
+ *
+ * @param {String} $direction (left-to-right) - Layout direction to be used within the block. Can be `left-to-right` or `right-to-left`.
+ *
+ * @example scss
+ *   @include direction(right-to-left) {
+ *    .right-to-left-block {
+ *      @include span-columns(6);
+ *     }
+ *   }
+ *
+ * @example css
+ *   // CSS
+ *   .right-to-left-block {
+ *     float: right;
+ *      ...
+ *   }
+ */
+/***********/
+/* BODY.SCSS */
+/***********/
+/***********/
+/* HEADER.SCSS */
+/***********/
+.header {
+  background-color: #01ddfe;
+  height: 5.5em; }
+
+nav {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+  nav .logo {
+    display: inline;
+    margin-top: 5px;
+    width: 160px; }
+  nav ul.menu {
+    margin-top: 5px;
+    list-style-type: none;
+    margin: 0; }
+    nav ul.menu li {
+      border: 2px solid #b5f326;
+      display: inline-block;
+      margin: 1.5em 0 0 2em;
+      text-align: center;
+      width: 160px; }
+    nav ul.menu a {
+      color: white;
+      font-family: "minion-pro",serif;
+      font-style: italic;
+      font-size: 1.5em;
+      font-weight: 400;
+      text-decoration: none;
+      text-transform: uppercase; }
+
+/***********/
+/* LAYOUT.SCSS */
+/***********/
+/*index.php*/
+.index-intro {
+  background-image: url("../../images/index-background.jpg");
+  height: 776px;
+  position: absolute;
+  width: 100%; }
+  .index-intro .intro-content {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .index-intro .intro-content:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .index-intro .intro-content img {
+      display: block;
+      margin: 5em auto 0 auto; }
+    .index-intro .intro-content h1.intro-statement {
+      background-color: #b5f326;
+      color: #01ddfe;
+      font-family: "minion-pro",serif;
+      font-style: italic;
+      font-size: 2em;
+      font-weight: 400;
+      margin: 2.5em 0 0 0;
+      text-align: center;
+      text-transform: uppercase; }
+    .index-intro .intro-content h4 {
+      color: white;
+      font-family: "proxima-nova",sans-serif;
+      font-size: 1.5em;
+      font-style: normal;
+      font-weight: 100;
+      letter-spacing: .05em;
+      margin: 2.5em 0 0 0;
+      text-align: center;
+      text-transform: uppercase; }
+      .index-intro .intro-content h4 i {
+        background-color: #b5f326;
+        border-radius: 5px;
+        color: #01ddfe;
+        font-size: .8em;
+        padding: 7px 10px 5px 10px; }
+    .index-intro .intro-content ul.index-menu {
+      float: center;
+      list-style-type: none;
+      margin: 3em 0 0 0;
+      padding: 0;
+      text-align: center; }
+      .index-intro .intro-content ul.index-menu li {
+        border: 2px solid #b5f326;
+        display: inline-block;
+        margin: 1.5em 1em 0 1em;
+        width: 160px; }
+      .index-intro .intro-content ul.index-menu a {
+        color: white;
+        font-family: "minion-pro",serif;
+        font-style: italic;
+        font-size: 1.5em;
+        font-weight: 400;
+        text-decoration: none;
+        text-transform: uppercase; }
+
+/***********/
+/* BODY.SCSS */
+/***********/
+body {
+  font-size: 15px;
+  margin: 0; }
+
+/***********/
+/* TYPE.SCSS */
+/***********/
+h2 {
+  color: white;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 3em;
+  font-style: normal;
+  font-weight: 100; }
+
+p {
+  font-family: "source-sans-pro",sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400; }
