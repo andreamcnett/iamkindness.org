@@ -4123,6 +4123,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/i-am-kindness\/about.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/about.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/i-am-kindness\/archive.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4221,6 +4230,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/i-am-kindness\/images\/about-background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29004,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-background.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/themes\/i-am-kindness\/images\/index-background.jpg": {
 		"fileType": 16384,

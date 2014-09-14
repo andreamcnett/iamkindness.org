@@ -17,14 +17,16 @@ nav {
 	}
 
 	ul.menu {
-		margin-top: 5px;
+		display: inline-block;
 		list-style-type: none;
 		margin: 0;
+		padding-top: 1.5em;
+		position: absolute;
 
 		li {
 			border: 2px solid $brand-green;
 			display: inline-block;
-			margin: 1.5em 0 0 2em;
+			margin: 0 0 0 2em;
 			text-align: center;
 			width: 160px;
 		}

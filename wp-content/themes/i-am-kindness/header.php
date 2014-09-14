@@ -29,13 +29,13 @@
 	<div class="header">
 		<nav class="nav">
 			<div class="logo">
-				<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="I AM Kindness logo" /></a>
+				<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="I AM Kindness logo" /></a>
 			</div>
 			<ul class="menu">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Volunteer</a></li>
-				<li><a href="#">Donate</a></li>
-				<li><a href="#">Blog</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/volunteer">Volunteer</a></li>
+				<li><a href="/donate">Donate</a></li>
+				<li><a href="/blog">Blog</a></li>
 			</ul>
 		</nav>
 	</div>

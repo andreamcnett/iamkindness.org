@@ -2,6 +2,16 @@
 /* TYPE.SCSS */
 /***********/
 
+h1 {
+	color: white;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 4em;
+	font-style: normal;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+}
+
 h2 {
 	font-family: "proxima-nova",sans-serif;
 	font-size: 3em;
@@ -26,6 +36,15 @@ h5 {
 	font-size: 1em;
 	font-style: normal;
 	font-weight: 700;
+}
+
+h6 {
+	color: white;
+	font-family: "source-sans-pro",sans-serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: 300;
+	margin: 0 0 1em 0;
 }
 
 p {

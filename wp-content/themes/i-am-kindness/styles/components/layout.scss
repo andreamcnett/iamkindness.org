@@ -158,3 +158,53 @@
 		}
 	}
 }
+
+/*pages*/
+
+.about.page-intro {
+	background-image: url('../../images/about-background.jpg');
+}
+
+.page-intro {
+	height: 350px;
+	position: relative;
+	width: 100%;
+
+	.page-intro-text {
+		@include outer-container;
+		padding: 2em 0 0 0;
+
+		.copy {
+			@include span-columns(6);
+		}
+	}
+}
+
+.page-modules {
+	@include outer-container;
+
+	.green {
+		background-color: $brand-green;
+	}
+
+	.teal {
+		background-color: $brand-teal;
+	}
+
+	.left-text {
+		@include span-columns(6);
+		margin-top: 1em;
+	}
+
+	.right-text {
+		@include span-columns(6);
+		@include omega;
+		margin-top: 1em;
+	}
+
+	.module-text {
+		color: white;
+		height: 15em;
+		padding: 2em;
+	}
+}
