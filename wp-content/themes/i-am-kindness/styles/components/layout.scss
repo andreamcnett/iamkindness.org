@@ -185,10 +185,16 @@
 
 	.green {
 		background-color: $brand-green;
+		color: white;
 	}
 
 	.teal {
 		background-color: $brand-teal;
+		color: white;
+	}
+
+	.white {
+		color: $brand-80-gray;
 	}
 
 	.left-text {
@@ -202,9 +208,46 @@
 		margin-top: 1em;
 	}
 
+	.left-image {
+		@include span-columns(6);
+
+		img {
+			@include fill-parent;
+		}
+	}
+
+	.right-image {
+		@include span-columns(6);
+
+		img {
+			@include fill-parent;
+		}
+	}
+
 	.module-text {
-		color: white;
 		height: 15em;
 		padding: 2em;
+	}
+
+	.full-background-image {
+		@include span-columns(12);
+		height: 350px;
+
+		.right-text {
+			@include shift(6);
+			color: white;
+		}
+
+		a {
+			color: white;
+		}
+
+		i {
+			background-color: white;
+		}
+	}
+
+	.donors {
+		background-image: url('../../images/about-donor-background.jpg');
 	}
 }

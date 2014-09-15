@@ -318,9 +318,13 @@ nav {
     display: table;
     clear: both; }
   .page-modules .green {
-    background-color: #b5f326; }
+    background-color: #b5f326;
+    color: white; }
   .page-modules .teal {
-    background-color: #01ddfe; }
+    background-color: #01ddfe;
+    color: white; }
+  .page-modules .white {
+    color: #333333; }
   .page-modules .left-text {
     float: left;
     display: block;
@@ -338,10 +342,44 @@ nav {
     margin-top: 1em; }
     .page-modules .right-text:last-child {
       margin-right: 0; }
+  .page-modules .left-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .page-modules .left-image:last-child {
+      margin-right: 0; }
+    .page-modules .left-image img {
+      width: 100%; }
+  .page-modules .right-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .page-modules .right-image:last-child {
+      margin-right: 0; }
+    .page-modules .right-image img {
+      width: 100%; }
   .page-modules .module-text {
-    color: white;
     height: 15em;
     padding: 2em; }
+  .page-modules .full-background-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    height: 350px; }
+    .page-modules .full-background-image:last-child {
+      margin-right: 0; }
+    .page-modules .full-background-image .right-text {
+      margin-left: 51.17883%;
+      color: white; }
+    .page-modules .full-background-image a {
+      color: white; }
+    .page-modules .full-background-image i {
+      background-color: white; }
+  .page-modules .donors {
+    background-image: url("../../images/about-donor-background.jpg"); }
 
 /***********/
 /* BODY.SCSS */

@@ -4242,6 +4242,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/i-am-kindness\/images\/about-donor-background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44427,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-donor-background.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-donor-background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/i-am-kindness\/images\/about-sarah.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41050,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-sarah.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-sarah.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/i-am-kindness\/images\/about-volunteer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34245,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-volunteer.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/i-am-kindness\/images\/about-volunteer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/i-am-kindness\/images\/index-background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
