@@ -288,6 +288,9 @@ nav {
 .about.page-intro {
   background-image: url("../../images/about-background.jpg"); }
 
+.volunteer.page-intro {
+  background-image: url("../../images/volunteer-background.jpg"); }
+
 .page-intro {
   height: 350px;
   position: relative;
@@ -380,6 +383,37 @@ nav {
       background-color: white; }
   .page-modules .donors {
     background-image: url("../../images/about-donor-background.jpg"); }
+
+.page-content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em; }
+  .page-content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .page-content .alert {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    background-color: #b5f326;
+    color: white; }
+    .page-content .alert:last-child {
+      margin-right: 0; }
+    .page-content .alert .alert-text {
+      padding: 1em; }
+      .page-content .alert .alert-text h3 {
+        margin: 0 0 .5em 0;
+        color: white; }
+  .page-content .page-copy {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    .page-content .page-copy:last-child {
+      margin-right: 0; }
 
 /***********/
 /* BODY.SCSS */
