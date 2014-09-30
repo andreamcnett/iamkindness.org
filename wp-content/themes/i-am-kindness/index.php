@@ -16,7 +16,7 @@ get_header( 'home' ); ?>
 <div class="index-intro">
 	<div class="intro-content">
 		<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/index-big-logo.png" alt-"I AM Kindness logo" /></a>
-		<h1 class="intro-statement">Busy makers and doers coming together to inspire confidence in others and themselves through random acts of kindness.</h1>
+		<h1 class="intro-statement"><p><?php the_field('intro-statement'); ?></h1>
 		<h4>Learn More <i class="fa fa-chevron-right"></i></h4>
 		<ul class="index-menu">
 			<li><a href="/about">About</a></li>

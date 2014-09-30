@@ -128,3 +128,46 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function wpb_adding_scripts() {
+wp_register_script('masonry', plugins_url('masonry.js', __FILE__));
+wp_enqueue_script('masonry');
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );  
+
+if ( ! function_exists( 'slug_masonry_init' )) :
+function slug_masonry_init() { ?>
+<script>
+    //set the container that Masonry will be inside of in a var
+    var container = document.querySelector('#masonry-loop');
+    //create empty var msnry
+    var msnry;
+    // initialize Masonry after all images have loaded
+    imagesLoaded( container, function() {
+        msnry = new Masonry( container, {
+            itemSelector: '.masonry-entry'
+        });
+    });
+</script>
+<?php }
+//add to wp_footer
+add_action( 'wp_footer', 'slug_masonry_init' );
+endif; // ! slug_masonry_init exists
+
+
+function reset_editor()
+{
+     global $_wp_post_type_features;
+
+     $post_type="page";
+     $feature = "editor";
+     if ( !isset($_wp_post_type_features[$post_type]) )
+     {
+
+     }
+     elseif ( isset($_wp_post_type_features[$post_type][$feature]) )
+     unset($_wp_post_type_features[$post_type][$feature]);
+}
+
+add_action("init","reset_editor");

@@ -133,7 +133,6 @@ nav {
 /***********/
 /*index.php*/
 .index-intro {
-  background-image: url("../../images/index-background.jpg");
   height: 776px;
   position: relative;
   width: 100%; }
