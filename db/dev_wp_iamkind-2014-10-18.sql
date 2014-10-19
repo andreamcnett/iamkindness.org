@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Oct 19, 2014 at 10:32 PM
+-- Generation Time: Oct 19, 2014 at 09:39 PM
 -- Server version: 5.5.38
 -- PHP Version: 5.5.14
 
@@ -97,7 +97,7 @@ CREATE TABLE `2v_options` (
   `option_name` varchar(64) NOT NULL DEFAULT '',
   `option_value` longtext NOT NULL,
   `autoload` varchar(20) NOT NULL DEFAULT 'yes'
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=248 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=231 ;
 
 --
 -- Dumping data for table `2v_options`
@@ -136,7 +136,7 @@ INSERT INTO `2v_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (30, 'hack_file', '0', 'yes'),
 (31, 'blog_charset', 'UTF-8', 'yes'),
 (32, 'moderation_keys', '', 'no'),
-(33, 'active_plugins', 'a:2:{i:0;s:30:"advanced-custom-fields/acf.php";i:1;s:37:"mailchimp-for-wp/mailchimp-for-wp.php";}', 'yes'),
+(33, 'active_plugins', 'a:1:{i:0;s:30:"advanced-custom-fields/acf.php";}', 'yes'),
 (34, 'category_base', '', 'yes'),
 (35, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (36, 'advanced_edit', '0', 'yes'),
@@ -234,17 +234,14 @@ INSERT INTO `2v_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (210, '_transient_feed_b9388c83948825c1edaef0d856b7b109', 'a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"\n	\n";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:72:"\n		\n		\n		\n		\n		\n		\n				\n\n		\n		\n		\n		\n		\n		\n		\n		\n		\n		\n		\n		\n		\n		\n		\n\n	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:39:"WordPress Plugins » View: Most Popular";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:45:"https://wordpress.org/plugins/browse/popular/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:39:"WordPress Plugins » View: Most Popular";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-US";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 19 Oct 2014 16:35:50 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:25:"http://bbpress.org/?v=1.1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:15:{i:0;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:14:"Contact Form 7";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"https://wordpress.org/plugins/contact-form-7/#post-2141";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 02 Aug 2007 12:45:03 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"2141@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:54:"Just another contact form plugin. Simple but flexible.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:16:"Takayuki Miyoshi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:22:"WordPress SEO by Yoast";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:54:"https://wordpress.org/plugins/wordpress-seo/#post-8321";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 01 Jan 2009 20:34:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"8321@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:131:"Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using Yoast&#039;s WordPress SEO plugin.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Joost de Valk";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"Wordfence Security";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://wordpress.org/plugins/wordfence/#post-29832";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 04 Sep 2011 03:13:51 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"29832@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:137:"Wordfence Security is a free enterprise class security and performance plugin that makes your site up to 50 times faster and more secure.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Wordfence";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:7:"Akismet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:46:"https://wordpress.org/plugins/akismet/#post-15";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 09 Mar 2007 22:11:30 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"15@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:98:"Akismet checks your comments against the Akismet Web service to see if they look like spam or not.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Matt Mullenweg";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:25:"Google Analytics by Yoast";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:71:"https://wordpress.org/plugins/google-analytics-for-wordpress/#post-2316";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 14 Sep 2007 12:15:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"2316@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:124:"Track your WordPress site easily with the latest tracking codes and lots added data for search result pages and error pages.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Joost de Valk";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:33:"WooCommerce - excelling eCommerce";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:53:"https://wordpress.org/plugins/woocommerce/#post-29860";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 05 Sep 2011 08:13:36 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"29860@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:97:"WooCommerce is a powerful, extendable eCommerce plugin that helps you sell anything. Beautifully.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"WooThemes";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:20:"MailPoet Newsletters";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:60:"https://wordpress.org/plugins/wysija-newsletters/#post-32629";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 02 Dec 2011 17:09:16 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"32629@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:94:"Send newsletters, post notifications or autoresponders from WordPress easily, and beautifully.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"MailPoet Staff";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"iThemes Security (formerly Better WP Security)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:60:"https://wordpress.org/plugins/better-wp-security/#post-21738";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 22 Oct 2010 22:06:05 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"21738@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:63:"The easiest, most effective way to secure WordPress in seconds.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Chris Wiegman";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:24:"Jetpack by WordPress.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:49:"https://wordpress.org/plugins/jetpack/#post-23862";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 20 Jan 2011 02:21:38 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"23862@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:104:"Supercharge your WordPress site with powerful features previously only available to WordPress.com users.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Tim Moore";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"WordPress Importer";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:60:"https://wordpress.org/plugins/wordpress-importer/#post-18101";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 20 May 2010 17:42:45 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"18101@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:101:"Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Brian Colinger";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:19:"Google XML Sitemaps";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:64:"https://wordpress.org/plugins/google-sitemap-generator/#post-132";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 09 Mar 2007 22:31:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"132@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:105:"This plugin will generate a special XML sitemap which will help search engines to better index your blog.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"arnee";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:19:"All in One SEO Pack";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"https://wordpress.org/plugins/all-in-one-seo-pack/#post-753";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 30 Mar 2007 20:08:18 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"753@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:126:"All in One SEO Pack is a WordPress SEO plugin to automatically optimize your WordPress blog for Search Engines such as Google.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"uberdose";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:27:"Black Studio TinyMCE Widget";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"https://wordpress.org/plugins/black-studio-tinymce-widget/#post-31973";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 10 Nov 2011 15:06:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"31973@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:39:"The visual editor widget for Wordpress.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Marco Chiesi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:11:"Meta Slider";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://wordpress.org/plugins/ml-slider/#post-49521";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 14 Feb 2013 16:56:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"49521@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:145:"Easy to use WordPress slider plugin. Create SEO optimised responsive slideshows with Nivo Slider, Flex Slider, Coin Slider and Responsive Slides.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Matcha Labs";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:30:"\n			\n			\n			\n			\n			\n			\n					";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:30:"Mass Advertising for WordPress";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:58:"https://wordpress.org/plugins/mass-advertising/#post-69628";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 09 Jul 2014 12:05:49 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"69628@https://wordpress.org/plugins/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:128:"Grow your -enterprise brand- and your business! Simply install, select your -advertising power- and... you are off to the races!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:16:"Mass Advertising";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:46:"https://wordpress.org/plugins/rss/view/popular";s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:11:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Sun, 19 Oct 2014 17:08:43 GMT";s:12:"content-type";s:23:"text/xml; charset=UTF-8";s:10:"connection";s:5:"close";s:4:"vary";s:15:"Accept-Encoding";s:7:"expires";s:29:"Sun, 19 Oct 2014 17:10:50 GMT";s:13:"cache-control";s:0:"";s:6:"pragma";s:0:"";s:13:"last-modified";s:31:"Sun, 19 Oct 2014 16:35:50 +0000";s:15:"x-frame-options";s:10:"SAMEORIGIN";s:4:"x-nc";s:11:"HIT lax 249";}s:5:"build";s:14:"20130911090210";}', 'no'),
 (211, '_transient_timeout_feed_mod_b9388c83948825c1edaef0d856b7b109', '1413781723', 'no'),
 (212, '_transient_feed_mod_b9388c83948825c1edaef0d856b7b109', '1413738523', 'no'),
-(213, '_transient_timeout_plugin_slugs', '1413836802', 'no'),
+(213, '_transient_timeout_plugin_slugs', '1413824923', 'no'),
 (214, '_transient_plugin_slugs', 'a:4:{i:0;s:30:"advanced-custom-fields/acf.php";i:1;s:19:"akismet/akismet.php";i:2;s:9:"hello.php";i:3;s:37:"mailchimp-for-wp/mailchimp-for-wp.php";}', 'no'),
 (215, '_transient_timeout_dash_4077549d03da2e451c8b5f002294ff51', '1413781723', 'no'),
 (216, '_transient_dash_4077549d03da2e451c8b5f002294ff51', '<div class="rss-widget"><ul><li><a class=''rsswidget'' href=''https://wordpress.org/news/2014/09/benny/''>WordPress 4.0 “Benny”</a> <span class="rss-date">September 4, 2014</span><div class="rssSummary">Version 4.0 of WordPress, named “Benny” in honor of jazz clarinetist and bandleader Benny Goodman, is available for download or update in your WordPress dashboard. While 4.0 is just another number for us after 3.9 and before 4.1, we feel we’ve put a little extra polish into it. This release brings you a smoother writing and management experience [&hellip;]</div></li></ul></div><div class="rss-widget"><ul><li><a class=''rsswidget'' href=''http://ma.tt/2014/10/pink-drill-bits/''>Matt: Pink Drill Bits</a></li><li><a class=''rsswidget'' href=''http://wptavern.com/themosis-object-oriented-development-framework-for-wordpress-now-available''>WPTavern: Themosis Object-Oriented Development Framework for WordPress Now Available</a></li><li><a class=''rsswidget'' href=''http://wptavern.com/watch-the-qa-session-between-matt-mullenweg-and-om-malik-from-wordcamp-europe''>WPTavern: Watch The Q&amp;A Session Between Matt Mullenweg and Om Malik From WordCamp Europe</a></li></ul></div><div class="rss-widget"><ul><li class=''dashboard-news-plugin''><span>Popular Plugin:</span> <a href=''https://wordpress.org/plugins/ml-slider/'' class=''dashboard-news-plugin-link''>Meta Slider</a>&nbsp;<span>(<a href=''plugin-install.php?tab=plugin-information&amp;plugin=ml-slider&amp;_wpnonce=4865a2ce5c&amp;TB_iframe=true&amp;width=600&amp;height=800'' class=''thickbox'' title=''Meta Slider''>Install</a>)</span></li></ul></div>', 'no'),
 (224, '_site_transient_timeout_theme_roots', '1413747606', 'yes'),
 (225, '_site_transient_theme_roots', 'a:4:{s:13:"i-am-kindness";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";s:12:"twentytwelve";s:7:"/themes";}', 'yes'),
-(226, '_site_transient_update_plugins', 'O:8:"stdClass":5:{s:12:"last_checked";i:1413750401;s:7:"checked";a:4:{s:30:"advanced-custom-fields/acf.php";s:5:"4.3.9";s:19:"akismet/akismet.php";s:5:"3.0.2";s:9:"hello.php";s:3:"1.6";s:37:"mailchimp-for-wp/mailchimp-for-wp.php";s:5:"2.1.3";}s:8:"response";a:1:{s:37:"mailchimp-for-wp/mailchimp-for-wp.php";O:8:"stdClass":6:{s:2:"id";s:5:"41550";s:4:"slug";s:16:"mailchimp-for-wp";s:6:"plugin";s:37:"mailchimp-for-wp/mailchimp-for-wp.php";s:11:"new_version";s:5:"2.1.5";s:3:"url";s:47:"https://wordpress.org/plugins/mailchimp-for-wp/";s:7:"package";s:65:"https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.1.5.zip";}}s:12:"translations";a:0:{}s:9:"no_update";a:3:{s:30:"advanced-custom-fields/acf.php";O:8:"stdClass":6:{s:2:"id";s:5:"21367";s:4:"slug";s:22:"advanced-custom-fields";s:6:"plugin";s:30:"advanced-custom-fields/acf.php";s:11:"new_version";s:5:"4.3.9";s:3:"url";s:53:"https://wordpress.org/plugins/advanced-custom-fields/";s:7:"package";s:65:"https://downloads.wordpress.org/plugin/advanced-custom-fields.zip";}s:19:"akismet/akismet.php";O:8:"stdClass":6:{s:2:"id";s:2:"15";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:5:"3.0.2";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:56:"https://downloads.wordpress.org/plugin/akismet.3.0.2.zip";}s:9:"hello.php";O:8:"stdClass":6:{s:2:"id";s:4:"3564";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";}}}', 'yes'),
-(244, 'mc4wp_lite', 'a:1:{s:7:"api_key";s:0:"";}', 'yes'),
-(245, 'mc4wp_lite_checkbox', 'a:10:{s:5:"label";s:30:"Sign me up for the newsletter!";s:8:"precheck";i:1;s:3:"css";i:1;s:20:"show_at_comment_form";i:0;s:25:"show_at_registration_form";i:0;s:22:"show_at_multisite_form";i:0;s:23:"show_at_buddypress_form";i:0;s:21:"show_at_bbpress_forms";i:0;s:5:"lists";a:0:{}s:12:"double_optin";i:1;}', 'yes'),
-(246, 'mc4wp_lite_form', 'a:12:{s:3:"css";s:7:"default";s:6:"markup";s:205:"<p>\n	<label for="mc4wp_email">Email address: </label>\n	<input type="email" id="mc4wp_email" name="EMAIL" placeholder="Your email address" required />\n</p>\n\n<p>\n	<input type="submit" value="Sign up" />\n</p>";s:12:"text_success";s:79:"Thank you, your sign-up request was successful! Please check your e-mail inbox.";s:10:"text_error";s:51:"Oops. Something went wrong. Please try again later.";s:18:"text_invalid_email";s:37:"Please provide a valid email address.";s:23:"text_already_subscribed";s:53:"Given email address is already subscribed, thank you!";s:20:"text_invalid_captcha";s:28:"Please complete the CAPTCHA.";s:27:"text_required_field_missing";s:35:"Please fill in the required fields.";s:8:"redirect";s:0:"";s:5:"lists";a:0:{}s:12:"double_optin";i:1;s:18:"hide_after_success";i:0;}', 'yes'),
-(247, 'mc4wp_lite_version', '2.1.3', 'yes');
+(226, '_site_transient_update_plugins', 'O:8:"stdClass":4:{s:12:"last_checked";i:1413745807;s:8:"response";a:1:{s:37:"mailchimp-for-wp/mailchimp-for-wp.php";O:8:"stdClass":6:{s:2:"id";s:5:"41550";s:4:"slug";s:16:"mailchimp-for-wp";s:6:"plugin";s:37:"mailchimp-for-wp/mailchimp-for-wp.php";s:11:"new_version";s:5:"2.1.5";s:3:"url";s:47:"https://wordpress.org/plugins/mailchimp-for-wp/";s:7:"package";s:65:"https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.1.5.zip";}}s:12:"translations";a:0:{}s:9:"no_update";a:3:{s:30:"advanced-custom-fields/acf.php";O:8:"stdClass":6:{s:2:"id";s:5:"21367";s:4:"slug";s:22:"advanced-custom-fields";s:6:"plugin";s:30:"advanced-custom-fields/acf.php";s:11:"new_version";s:5:"4.3.9";s:3:"url";s:53:"https://wordpress.org/plugins/advanced-custom-fields/";s:7:"package";s:65:"https://downloads.wordpress.org/plugin/advanced-custom-fields.zip";}s:19:"akismet/akismet.php";O:8:"stdClass":6:{s:2:"id";s:2:"15";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:5:"3.0.2";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:56:"https://downloads.wordpress.org/plugin/akismet.3.0.2.zip";}s:9:"hello.php";O:8:"stdClass":6:{s:2:"id";s:4:"3564";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";}}}', 'yes'),
+(230, '_transient_is_multi_author', '0', 'yes');
 
 -- --------------------------------------------------------
 
@@ -257,7 +254,7 @@ CREATE TABLE `2v_postmeta` (
   `post_id` bigint(20) unsigned NOT NULL DEFAULT '0',
   `meta_key` varchar(255) DEFAULT NULL,
   `meta_value` longtext
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=396 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=223 ;
 
 --
 -- Dumping data for table `2v_postmeta`
@@ -309,7 +306,7 @@ INSERT INTO `2v_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (49, 5, 'donate-image', '10'),
 (50, 5, '_donate-image', 'field_542a0dd85a0dd'),
 (52, 12, '_edit_last', '1'),
-(53, 12, '_edit_lock', '1413750238:1'),
+(53, 12, '_edit_lock', '1413739157:1'),
 (54, 12, '_wp_page_template', 'volunteer.php'),
 (55, 17, '_menu_item_type', 'custom'),
 (56, 17, '_menu_item_menu_item_parent', '0'),
@@ -393,7 +390,7 @@ INSERT INTO `2v_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (142, 34, 'position', 'normal'),
 (143, 34, 'layout', 'no_box'),
 (144, 34, 'hide_on_screen', ''),
-(145, 34, '_edit_lock', '1413749152:1'),
+(145, 34, '_edit_lock', '1413746138:1'),
 (161, 37, '_wp_attached_file', '2014/10/about-background.jpg'),
 (162, 37, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:1440;s:6:"height";i:350;s:4:"file";s:28:"2014/10/about-background.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"about-background-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:27:"about-background-300x72.jpg";s:5:"width";i:300;s:6:"height";i:72;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:29:"about-background-1024x248.jpg";s:5:"width";i:1024;s:6:"height";i:248;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}'),
 (163, 38, 'intro-image', '37'),
@@ -411,8 +408,11 @@ INSERT INTO `2v_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (175, 40, '_edit_last', '1'),
 (176, 40, '_edit_lock', '1413746137:1'),
 (177, 41, '_edit_last', '1'),
-(178, 41, '_edit_lock', '1413749863:1'),
+(178, 41, '_edit_lock', '1413746511:1'),
 (179, 41, '_wp_page_template', 'donate.php'),
+(180, 34, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:9:"about.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
+(181, 34, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:13:"volunteer.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}'),
+(182, 34, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:10:"donate.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}'),
 (183, 40, '_wp_trash_meta_status', 'draft'),
 (184, 40, '_wp_trash_meta_time', '1413746286'),
 (185, 44, 'intro-image', '37'),
@@ -424,14 +424,15 @@ INSERT INTO `2v_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (191, 41, 'page-intro', 'Are you a small business who would like to partner with I AM Kindess? Or are you too busy to volunteer, but still would like to help out? I AM Kindess relys on generous donations to make events extra kind. '),
 (192, 41, '_page-intro', 'field_5443f117a02c8'),
 (193, 45, '_edit_last', '1'),
-(194, 45, 'field_54440ef45b5d3', 'a:14:{s:3:"key";s:19:"field_54440ef45b5d3";s:5:"label";s:15:"Left Text Title";s:4:"name";s:15:"left-text-title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
-(195, 45, 'field_54440f355b5d4', 'a:13:{s:3:"key";s:19:"field_54440f355b5d4";s:5:"label";s:9:"Left Text";s:4:"name";s:9:"left-text";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:2:"br";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}'),
-(196, 45, 'field_54440f405b5d5', 'a:14:{s:3:"key";s:19:"field_54440f405b5d5";s:5:"label";s:16:"Right Text Title";s:4:"name";s:16:"right-text-title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}'),
-(197, 45, 'field_54440f4a5b5d6', 'a:13:{s:3:"key";s:19:"field_54440f4a5b5d6";s:5:"label";s:10:"Right Text";s:4:"name";s:10:"right-text";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:2:"br";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:5;}'),
+(194, 45, 'field_54440ef45b5d3', 'a:14:{s:3:"key";s:19:"field_54440ef45b5d3";s:5:"label";s:15:"Left Text Title";s:4:"name";s:15:"left-text-title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
+(195, 45, 'field_54440f355b5d4', 'a:13:{s:3:"key";s:19:"field_54440f355b5d4";s:5:"label";s:9:"Left Text";s:4:"name";s:9:"left-text";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:2:"br";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}'),
+(196, 45, 'field_54440f405b5d5', 'a:14:{s:3:"key";s:19:"field_54440f405b5d5";s:5:"label";s:16:"Right Text Title";s:4:"name";s:16:"right-text-title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}'),
+(197, 45, 'field_54440f4a5b5d6', 'a:13:{s:3:"key";s:19:"field_54440f4a5b5d6";s:5:"label";s:10:"Right Text";s:4:"name";s:10:"right-text";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:2:"br";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}'),
+(198, 45, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:10:"donate.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
 (199, 45, 'position', 'normal'),
 (200, 45, 'layout', 'no_box'),
 (201, 45, 'hide_on_screen', ''),
-(202, 45, '_edit_lock', '1413748658:1'),
+(202, 45, '_edit_lock', '1413746660:1'),
 (203, 46, 'left-text-title', 'Give Stuff'),
 (204, 46, '_left-text-title', 'field_54440ef45b5d3'),
 (205, 46, 'left-text', 'Partnering with I AM Kindess is tax deductible, a great way to show your community support and may even help drive business! We work one-on-one with small and medium sized businesses to work your generous donation into an event. '),
@@ -451,171 +452,7 @@ INSERT INTO `2v_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (219, 41, 'right-text-title', 'Give Cash'),
 (220, 41, '_right-text-title', 'field_54440f405b5d5'),
 (221, 41, 'right-text', 'Make a small or large tax deductiable donation now! Then, follow us on Twitter, Facebook, Instagram or read the blog to see your donation put to good use! '),
-(222, 41, '_right-text', 'field_54440f4a5b5d6'),
-(223, 45, 'field_54440fe71b616', 'a:11:{s:3:"key";s:19:"field_54440fe71b616";s:5:"label";s:9:"Left Link";s:4:"name";s:9:"left-link";s:4:"type";s:9:"page_link";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:3:"all";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}'),
-(224, 45, 'field_544416801b617', 'a:14:{s:3:"key";s:19:"field_544416801b617";s:5:"label";s:14:"Left Link Text";s:4:"name";s:14:"left-link-text";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}'),
-(227, 47, 'left-text-title', 'Give Stuff'),
-(228, 47, '_left-text-title', 'field_54440ef45b5d3'),
-(229, 47, 'left-text', 'Partnering with I AM Kindess is tax deductible, a great way to show your community support and may even help drive business! We work one-on-one with small and medium sized businesses to work your generous donation into an event. '),
-(230, 47, '_left-text', 'field_54440f355b5d4'),
-(231, 47, 'left-link', '41'),
-(232, 47, '_left-link', 'field_54440fe71b616'),
-(233, 47, 'left-link-text', 'Learn more and get started'),
-(234, 47, '_left-link-text', 'field_544416801b617'),
-(235, 47, 'right-text-title', 'Give Cash'),
-(236, 47, '_right-text-title', 'field_54440f405b5d5'),
-(237, 47, 'right-text', 'Make a small or large tax deductiable donation now! Then, follow us on Twitter, Facebook, Instagram or read the blog to see your donation put to good use! '),
-(238, 47, '_right-text', 'field_54440f4a5b5d6'),
-(239, 47, 'intro-image', '37'),
-(240, 47, '_intro-image', 'field_5443f1daa02c9'),
-(241, 47, 'page-intro', 'Are you a small business who would like to partner with I AM Kindess? Or are you too busy to volunteer, but still would like to help out? I AM Kindess relys on generous donations to make events extra kind. '),
-(242, 47, '_page-intro', 'field_5443f117a02c8'),
-(243, 41, 'left-link', '58'),
-(244, 41, '_left-link', 'field_54440fe71b616'),
-(245, 41, 'left-link-text', 'Learn more and get started'),
-(246, 41, '_left-link-text', 'field_544416801b617'),
-(247, 48, 'left-text-title', 'Give Stuff'),
-(248, 48, '_left-text-title', 'field_54440ef45b5d3'),
-(249, 48, 'left-text', 'Partnering with I AM Kindess is tax deductible, a great way to show your community support and may even help drive business! We work one-on-one with small and medium sized businesses to work your generous donation into an event. '),
-(250, 48, '_left-text', 'field_54440f355b5d4'),
-(251, 48, 'left-link', '32'),
-(252, 48, '_left-link', 'field_54440fe71b616'),
-(253, 48, 'left-link-text', 'Learn more and get started'),
-(254, 48, '_left-link-text', 'field_544416801b617'),
-(255, 48, 'right-text-title', 'Give Cash'),
-(256, 48, '_right-text-title', 'field_54440f405b5d5'),
-(257, 48, 'right-text', 'Make a small or large tax deductiable donation now! Then, follow us on Twitter, Facebook, Instagram or read the blog to see your donation put to good use! '),
-(258, 48, '_right-text', 'field_54440f4a5b5d6'),
-(259, 48, 'intro-image', '37'),
-(260, 48, '_intro-image', 'field_5443f1daa02c9'),
-(261, 48, 'page-intro', 'Are you a small business who would like to partner with I AM Kindess? Or are you too busy to volunteer, but still would like to help out? I AM Kindess relys on generous donations to make events extra kind. '),
-(262, 48, '_page-intro', 'field_5443f117a02c8'),
-(263, 45, 'field_544417455cf14', 'a:11:{s:3:"key";s:19:"field_544417455cf14";s:5:"label";s:10:"Right Link";s:4:"name";s:10:"right-link";s:4:"type";s:9:"page_link";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:9:"post_type";a:1:{i:0;s:3:"all";}s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:6;}'),
-(264, 45, 'field_544417525cf15', 'a:14:{s:3:"key";s:19:"field_544417525cf15";s:5:"label";s:15:"Right Link Text";s:4:"name";s:15:"right-link-text";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:7;}'),
-(266, 49, 'left-text-title', 'Give Stuff'),
-(267, 49, '_left-text-title', 'field_54440ef45b5d3'),
-(268, 49, 'left-text', 'Partnering with I AM Kindess is tax deductible, a great way to show your community support and may even help drive business! We work one-on-one with small and medium sized businesses to work your generous donation into an event. '),
-(269, 49, '_left-text', 'field_54440f355b5d4'),
-(270, 49, 'left-link', '32'),
-(271, 49, '_left-link', 'field_54440fe71b616'),
-(272, 49, 'left-link-text', 'Learn more and get started'),
-(273, 49, '_left-link-text', 'field_544416801b617'),
-(274, 49, 'right-text-title', 'Give Cash'),
-(275, 49, '_right-text-title', 'field_54440f405b5d5'),
-(276, 49, 'right-text', 'Make a small or large tax deductiable donation now! Then, follow us on Twitter, Facebook, Instagram or read the blog to see your donation put to good use! '),
-(277, 49, '_right-text', 'field_54440f4a5b5d6'),
-(278, 49, 'right-link', '32'),
-(279, 49, '_right-link', 'field_544417455cf14'),
-(280, 49, 'right-link-text', 'Learn More and Get Started'),
-(281, 49, '_right-link-text', 'field_544417525cf15'),
-(282, 49, 'intro-image', '37'),
-(283, 49, '_intro-image', 'field_5443f1daa02c9'),
-(284, 49, 'page-intro', 'Are you a small business who would like to partner with I AM Kindess? Or are you too busy to volunteer, but still would like to help out? I AM Kindess relys on generous donations to make events extra kind. '),
-(285, 49, '_page-intro', 'field_5443f117a02c8'),
-(286, 41, 'right-link', '50'),
-(287, 41, '_right-link', 'field_544417455cf14'),
-(288, 41, 'right-link-text', 'Learn More and Get Started'),
-(289, 41, '_right-link-text', 'field_544417525cf15'),
-(290, 34, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:9:"about.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
-(291, 34, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:13:"volunteer.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}'),
-(292, 34, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:10:"donate.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}'),
-(293, 45, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:10:"donate.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
-(294, 50, '_edit_last', '1'),
-(295, 50, '_edit_lock', '1413749406:1'),
-(296, 50, '_wp_page_template', 'cash.php'),
-(297, 53, '_edit_last', '1'),
-(298, 53, 'field_544418b972fbf', 'a:11:{s:3:"key";s:19:"field_544418b972fbf";s:5:"label";s:11:"Intro Image";s:4:"name";s:11:"intro-image";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:6:"object";s:12:"preview_size";s:9:"thumbnail";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
-(300, 53, 'position', 'normal'),
-(301, 53, 'layout', 'no_box'),
-(302, 53, 'hide_on_screen', ''),
-(303, 53, '_edit_lock', '1413749601:1'),
-(308, 54, 'intro-image', '37'),
-(309, 54, '_intro-image', 'field_544418b972fbf'),
-(310, 50, 'intro-image', '37'),
-(311, 50, '_intro-image', 'field_544418b972fbf'),
-(312, 53, 'field_54441a3461532', 'a:14:{s:3:"key";s:19:"field_54441a3461532";s:5:"label";s:14:"Page Sub Title";s:4:"name";s:14:"page-sub-title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}'),
-(313, 53, 'field_54441a7b61533', 'a:11:{s:3:"key";s:19:"field_54441a7b61533";s:5:"label";s:9:"Page Copy";s:4:"name";s:9:"page-copy";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:7:"toolbar";s:4:"full";s:12:"media_upload";s:2:"no";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}'),
-(314, 53, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:8:"cash.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
-(315, 53, 'rule', 'a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";s:8:"order_no";i:0;s:8:"group_no";i:1;}'),
-(316, 55, 'intro-image', '37'),
-(317, 55, '_intro-image', 'field_544418b972fbf'),
-(318, 55, 'page-sub-title', 'Donate to I AM Kindness'),
-(319, 55, '_page-sub-title', 'field_54441a3461532'),
-(320, 55, 'page-copy', '<h3>Coming Soon!</h3>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.'),
-(321, 55, '_page-copy', 'field_54441a7b61533'),
-(322, 50, 'page-sub-title', 'Donate to I AM Kindness'),
-(323, 50, '_page-sub-title', 'field_54441a3461532'),
-(324, 50, 'page-copy', '<h3>Coming Soon!</h3>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.'),
-(325, 50, '_page-copy', 'field_54441a7b61533'),
-(326, 56, '_edit_last', '1'),
-(327, 56, '_edit_lock', '1413749556:1'),
-(328, 57, '_edit_last', '1'),
-(329, 57, 'field_54441b678eace', 'a:11:{s:3:"key";s:19:"field_54441b678eace";s:5:"label";s:11:"Intro Image";s:4:"name";s:11:"intro-image";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:6:"object";s:12:"preview_size";s:9:"thumbnail";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
-(330, 57, 'field_54441b748eacf', 'a:14:{s:3:"key";s:19:"field_54441b748eacf";s:5:"label";s:14:"Page Sub Title";s:4:"name";s:14:"page-sub-title";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}'),
-(331, 57, 'field_54441b858ead0', 'a:11:{s:3:"key";s:19:"field_54441b858ead0";s:5:"label";s:9:"Page Copy";s:4:"name";s:9:"page-copy";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:7:"toolbar";s:4:"full";s:12:"media_upload";s:3:"yes";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}'),
-(332, 57, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:9:"stuff.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
-(333, 57, 'position', 'normal'),
-(334, 57, 'layout', 'no_box'),
-(335, 57, 'hide_on_screen', ''),
-(336, 57, '_edit_lock', '1413750053:1'),
-(337, 58, '_edit_last', '1'),
-(338, 58, '_edit_lock', '1413749742:1'),
-(339, 58, '_wp_page_template', 'stuff.php'),
-(340, 59, 'intro-image', '37'),
-(341, 59, '_intro-image', 'field_54441b678eace'),
-(342, 59, 'page-sub-title', 'Partner with I AM Kindness'),
-(343, 59, '_page-sub-title', 'field_54441b748eacf'),
-(344, 59, 'page-copy', '<h2>What We Need</h2>\r\nI AM Kindness reguardly partners with small and medium size business around the Twin Cities and beyond to make our events extra special for those in need. Often, events are tailored to what you can offer. Past examples include:\r\n<ul>\r\n	<li>Steller Hair Company parentered with our Woman’s Beauty Day at the Listening House in St. Paul and offered free hair cuts to homeless woman.</li>\r\n	<li>Seven Sundays added their delicious museli to gift bags at a beauty makeover in a nursing home.</li>\r\n	<li>Gorilla Yogis hosted a donation-based yoga class where all of the proceeds went to furture I AM Kindness events.</li>\r\n</ul>\r\n<h2>What You Get</h2>\r\nIn exchange for your generous donation, your business gets:\r\n<ul>\r\n	<li>One blog post metion detailing your donation</li>\r\n	<li>One Facebook post (over 1000 likes) detialing your donation</li>\r\n	<li>I AM Kindness press package with photos and log, upon request</li>\r\n	<li>Warm fuzzies</li>\r\n</ul>\r\n<h2>Get Started</h2>\r\nFill out the form and one of our volunteers will contact you within 5 business days.'),
-(345, 59, '_page-copy', 'field_54441b858ead0'),
-(346, 58, 'intro-image', '37'),
-(347, 58, '_intro-image', 'field_54441b678eace'),
-(348, 58, 'page-sub-title', 'Partner with I AM Kindness'),
-(349, 58, '_page-sub-title', 'field_54441b748eacf'),
-(350, 58, 'page-copy', '<h3>What We Need</h3>\r\nI AM Kindness reguardly partners with small and medium size business around the Twin Cities and beyond to make our events extra special for those in need. Often, events are tailored to what you can offer. Past examples include:\r\n<ul>\r\n	<li>Steller Hair Company parentered with our Woman’s Beauty Day at the Listening House in St. Paul and offered free hair cuts to homeless woman.</li>\r\n	<li>Seven Sundays added their delicious museli to gift bags at a beauty makeover in a nursing home.</li>\r\n	<li>Gorilla Yogis hosted a donation-based yoga class where all of the proceeds went to furture I AM Kindness events.</li>\r\n</ul>\r\n<h3>What You Get</h3>\r\nIn exchange for your generous donation, your business gets:\r\n<ul>\r\n	<li>One blog post metion detailing your donation</li>\r\n	<li>One Facebook post (over 1000 likes) detialing your donation</li>\r\n	<li>I AM Kindness press package with photos and log, upon request</li>\r\n	<li>Warm fuzzies</li>\r\n</ul>\r\n<h3>Get Started</h3>\r\nFill out the form and one of our volunteers will contact you within 5 business days.'),
-(351, 58, '_page-copy', 'field_54441b858ead0'),
-(352, 60, 'intro-image', '37'),
-(353, 60, '_intro-image', 'field_54441b678eace'),
-(354, 60, 'page-sub-title', 'Partner with I AM Kindness'),
-(355, 60, '_page-sub-title', 'field_54441b748eacf'),
-(356, 60, 'page-copy', '<h3>What We Need</h3>\r\nI AM Kindness reguardly partners with small and medium size business around the Twin Cities and beyond to make our events extra special for those in need. Often, events are tailored to what you can offer. Past examples include:\r\n<ul>\r\n	<li>Steller Hair Company parentered with our Woman’s Beauty Day at the Listening House in St. Paul and offered free hair cuts to homeless woman.</li>\r\n	<li>Seven Sundays added their delicious museli to gift bags at a beauty makeover in a nursing home.</li>\r\n	<li>Gorilla Yogis hosted a donation-based yoga class where all of the proceeds went to furture I AM Kindness events.</li>\r\n</ul>\r\n<h3>What You Get</h3>\r\nIn exchange for your generous donation, your business gets:\r\n<ul>\r\n	<li>One blog post metion detailing your donation</li>\r\n	<li>One Facebook post (over 1000 likes) detialing your donation</li>\r\n	<li>I AM Kindness press package with photos and log, upon request</li>\r\n	<li>Warm fuzzies</li>\r\n</ul>\r\n<h3>Get Started</h3>\r\nFill out the form and one of our volunteers will contact you within 5 business days.'),
-(357, 60, '_page-copy', 'field_54441b858ead0'),
-(358, 56, '_wp_trash_meta_status', 'draft'),
-(359, 56, '_wp_trash_meta_time', '1413749880'),
-(360, 62, 'intro-image', '37'),
-(361, 62, '_intro-image', 'field_5443f1daa02c9'),
-(362, 62, 'page-intro', 'Are you a small business who would like to partner with I AM Kindess? Or are you too busy to volunteer, but still would like to help out? I AM Kindess relys on generous donations to make events extra kind. '),
-(363, 62, '_page-intro', 'field_5443f117a02c8'),
-(364, 62, 'left-text-title', 'Give Stuff'),
-(365, 62, '_left-text-title', 'field_54440ef45b5d3'),
-(366, 62, 'left-text', 'Partnering with I AM Kindess is tax deductible, a great way to show your community support and may even help drive business! We work one-on-one with small and medium sized businesses to work your generous donation into an event. '),
-(367, 62, '_left-text', 'field_54440f355b5d4'),
-(368, 62, 'left-link', '58'),
-(369, 62, '_left-link', 'field_54440fe71b616'),
-(370, 62, 'left-link-text', 'Learn more and get started'),
-(371, 62, '_left-link-text', 'field_544416801b617'),
-(372, 62, 'right-text-title', 'Give Cash'),
-(373, 62, '_right-text-title', 'field_54440f405b5d5'),
-(374, 62, 'right-text', 'Make a small or large tax deductiable donation now! Then, follow us on Twitter, Facebook, Instagram or read the blog to see your donation put to good use! '),
-(375, 62, '_right-text', 'field_54440f4a5b5d6'),
-(376, 62, 'right-link', '50'),
-(377, 62, '_right-link', 'field_544417455cf14'),
-(378, 62, 'right-link-text', 'Learn More and Get Started'),
-(379, 62, '_right-link-text', 'field_544417525cf15'),
-(380, 63, 'intro-image', '37'),
-(381, 63, '_intro-image', 'field_5443f1daa02c9'),
-(382, 63, 'page-intro', 'I AM Kindness is always looking for volunteers preform random acts of kindess around the Twin Cities. Spend one afternoon giving make-overs to the elderly or an evening distributing flowers to strangers on Nicolet. Give your email to get started and we’ll reach out before our next event!'),
-(383, 63, '_page-intro', 'field_5443f117a02c8'),
-(384, 12, 'intro-image', '37'),
-(385, 12, '_intro-image', 'field_5443f1daa02c9'),
-(386, 12, 'page-intro', 'I AM Kindness is always looking for volunteers preform random acts of kindess around the Twin Cities. Spend one afternoon giving make-overs to the elderly or an evening distributing flowers to strangers on Nicolet. Give your email to get started and we’ll reach out before our next event!'),
-(387, 12, '_page-intro', 'field_5443f117a02c8'),
-(388, 64, '_edit_last', '1'),
-(389, 64, 'field_54441d7fc3321', 'a:13:{s:3:"key";s:19:"field_54441d7fc3321";s:5:"label";s:10:"Alert Text";s:4:"name";s:10:"alert-text";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:2:"br";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
-(391, 64, 'position', 'normal'),
-(392, 64, 'layout', 'no_box'),
-(393, 64, 'hide_on_screen', ''),
-(394, 64, '_edit_lock', '1413750209:1'),
-(395, 64, 'rule', 'a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:13:"volunteer.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}');
+(222, 41, '_right-text', 'field_54440f4a5b5d6');
 
 -- --------------------------------------------------------
 
@@ -647,7 +484,7 @@ CREATE TABLE `2v_posts` (
   `post_type` varchar(20) NOT NULL DEFAULT 'post',
   `post_mime_type` varchar(100) NOT NULL DEFAULT '',
   `comment_count` bigint(20) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=65 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=47 ;
 
 --
 -- Dumping data for table `2v_posts`
@@ -663,7 +500,7 @@ INSERT INTO `2v_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (9, 1, '2014-09-30 01:54:34', '2014-09-30 01:54:34', '', 'Home', '', 'inherit', 'open', 'open', '', '5-revision-v1', '', '', '2014-09-30 01:54:34', '2014-09-30 01:54:34', '', 5, 'http://localhost:8888/?p=9', 0, 'revision', '', 0),
 (10, 1, '2014-09-30 01:58:41', '2014-09-30 01:58:41', '', 'index-donate-teaser', '', 'inherit', 'open', 'open', '', 'index-donate-teaser', '', '', '2014-09-30 01:58:41', '2014-09-30 01:58:41', '', 5, 'http://localhost:8888/wp-content/uploads/2014/09/index-donate-teaser.png', 0, 'attachment', 'image/png', 0),
 (11, 1, '2014-09-30 01:58:45', '2014-09-30 01:58:45', '', 'Home', '', 'inherit', 'open', 'open', '', '5-revision-v1', '', '', '2014-09-30 01:58:45', '2014-09-30 01:58:45', '', 5, 'http://localhost:8888/?p=11', 0, 'revision', '', 0),
-(12, 1, '2014-09-30 02:01:17', '2014-09-30 02:01:17', '', 'Volunteer', '', 'publish', 'open', 'open', '', 'volunteer', '', '', '2014-10-19 20:20:34', '2014-10-19 20:20:34', '', 0, 'http://localhost:8888/?page_id=12', 0, 'page', '', 0),
+(12, 1, '2014-09-30 02:01:17', '2014-09-30 02:01:17', '', 'Volunteer', '', 'publish', 'open', 'open', '', 'volunteer', '', '', '2014-09-30 02:01:17', '2014-09-30 02:01:17', '', 0, 'http://localhost:8888/?page_id=12', 0, 'page', '', 0),
 (13, 1, '2014-09-30 02:01:17', '2014-09-30 02:01:17', '', 'Volunteer', '', 'inherit', 'open', 'open', '', '12-revision-v1', '', '', '2014-09-30 02:01:17', '2014-09-30 02:01:17', '', 12, 'http://localhost:8888/?p=13', 0, 'revision', '', 0),
 (17, 1, '2014-09-30 02:21:01', '0000-00-00 00:00:00', '', 'Home', '', 'draft', 'open', 'open', '', '', '', '', '2014-09-30 02:21:01', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/?p=17', 1, 'nav_menu_item', '', 0),
 (18, 1, '2014-09-30 02:21:01', '0000-00-00 00:00:00', ' ', '', '', 'draft', 'open', 'open', '', '', '', '', '2014-09-30 02:21:01', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/?p=18', 1, 'nav_menu_item', '', 0),
@@ -681,37 +518,19 @@ INSERT INTO `2v_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (31, 1, '2014-10-19 17:08:41', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2014-10-19 17:08:41', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/?p=31', 0, 'post', '', 0),
 (32, 1, '2014-10-19 17:09:55', '2014-10-19 17:09:55', '', 'About Us', '', 'publish', 'open', 'open', '', 'about', '', '', '2014-10-19 17:24:18', '2014-10-19 17:24:18', '', 0, 'http://localhost:8888/?page_id=32', 0, 'page', '', 0),
 (33, 1, '2014-10-19 17:09:55', '2014-10-19 17:09:55', '', 'About', '', 'inherit', 'open', 'open', '', '32-revision-v1', '', '', '2014-10-19 17:09:55', '2014-10-19 17:09:55', '', 32, 'http://localhost:8888/32-revision-v1/', 0, 'revision', '', 0),
-(34, 1, '2014-10-19 17:17:24', '2014-10-19 17:17:24', '', 'Page Intro', '', 'publish', 'closed', 'closed', '', 'acf_page-intro', '', '', '2014-10-19 19:56:52', '2014-10-19 19:56:52', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=34', 1, 'acf', '', 0),
+(34, 1, '2014-10-19 17:17:24', '2014-10-19 17:17:24', '', 'Page Intro', '', 'publish', 'closed', 'closed', '', 'acf_page-intro', '', '', '2014-10-19 19:17:53', '2014-10-19 19:17:53', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=34', 0, 'acf', '', 0),
 (35, 1, '2014-10-19 17:14:17', '2014-10-19 17:14:17', '', 'About Us', '', 'inherit', 'open', 'open', '', '32-autosave-v1', '', '', '2014-10-19 17:14:17', '2014-10-19 17:14:17', '', 32, 'http://localhost:8888/32-autosave-v1/', 0, 'revision', '', 0),
 (36, 1, '2014-10-19 17:16:19', '2014-10-19 17:16:19', '', 'About Us', '', 'inherit', 'open', 'open', '', '32-revision-v1', '', '', '2014-10-19 17:16:19', '2014-10-19 17:16:19', '', 32, 'http://localhost:8888/32-revision-v1/', 0, 'revision', '', 0),
 (37, 1, '2014-10-19 17:23:32', '2014-10-19 17:23:32', '', 'about-background', '', 'inherit', 'open', 'open', '', 'about-background', '', '', '2014-10-19 17:23:32', '2014-10-19 17:23:32', '', 32, 'http://localhost:8888/wp-content/uploads/2014/10/about-background.jpg', 0, 'attachment', 'image/jpeg', 0),
 (38, 1, '2014-10-19 17:23:49', '2014-10-19 17:23:49', '', 'About Us', '', 'inherit', 'open', 'open', '', '32-revision-v1', '', '', '2014-10-19 17:23:49', '2014-10-19 17:23:49', '', 32, 'http://localhost:8888/32-revision-v1/', 0, 'revision', '', 0),
 (39, 1, '2014-10-19 17:24:18', '2014-10-19 17:24:18', '', 'About Us', '', 'inherit', 'open', 'open', '', '32-revision-v1', '', '', '2014-10-19 17:24:18', '2014-10-19 17:24:18', '', 32, 'http://localhost:8888/32-revision-v1/', 0, 'revision', '', 0),
 (40, 1, '2014-10-19 19:15:37', '2014-10-19 19:15:37', '', 'Donate', '', 'trash', 'open', 'open', '', 'donate-2', '', '', '2014-10-19 19:18:06', '2014-10-19 19:18:06', '', 0, 'http://localhost:8888/?page_id=40', 0, 'page', '', 0),
-(41, 1, '2014-10-19 19:16:01', '2014-10-19 19:16:01', '', 'Donate', '', 'publish', 'open', 'open', '', 'donate', '', '', '2014-10-19 20:18:22', '2014-10-19 20:18:22', '', 0, 'http://localhost:8888/?page_id=41', 0, 'page', '', 0),
+(41, 1, '2014-10-19 19:16:01', '2014-10-19 19:16:01', '', 'Donate', '', 'publish', 'open', 'open', '', 'donate', '', '', '2014-10-19 19:23:09', '2014-10-19 19:23:09', '', 0, 'http://localhost:8888/?page_id=41', 0, 'page', '', 0),
 (42, 1, '2014-10-19 19:16:01', '2014-10-19 19:16:01', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:16:01', '2014-10-19 19:16:01', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
 (43, 1, '2014-10-19 19:18:06', '2014-10-19 19:18:06', '', 'Donate', '', 'inherit', 'open', 'open', '', '40-revision-v1', '', '', '2014-10-19 19:18:06', '2014-10-19 19:18:06', '', 40, 'http://localhost:8888/40-revision-v1/', 0, 'revision', '', 0),
 (44, 1, '2014-10-19 19:18:29', '2014-10-19 19:18:29', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:18:29', '2014-10-19 19:18:29', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
-(45, 1, '2014-10-19 19:21:56', '2014-10-19 19:21:56', '', 'Donate', '', 'publish', 'closed', 'closed', '', 'acf_donate', '', '', '2014-10-19 19:57:03', '2014-10-19 19:57:03', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=45', 2, 'acf', '', 0),
-(46, 1, '2014-10-19 19:23:09', '2014-10-19 19:23:09', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:23:09', '2014-10-19 19:23:09', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
-(47, 1, '2014-10-19 19:53:41', '2014-10-19 19:53:41', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:53:41', '2014-10-19 19:53:41', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
-(48, 1, '2014-10-19 19:54:23', '2014-10-19 19:54:23', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:54:23', '2014-10-19 19:54:23', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
-(49, 1, '2014-10-19 19:56:33', '2014-10-19 19:56:33', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:56:33', '2014-10-19 19:56:33', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
-(50, 1, '2014-10-19 20:00:18', '2014-10-19 20:00:18', '', 'Give Cash', '', 'publish', 'open', 'open', '', 'give-cash', '', '', '2014-10-19 20:11:59', '2014-10-19 20:11:59', '', 41, 'http://localhost:8888/?page_id=50', 0, 'page', '', 0),
-(51, 1, '2014-10-19 20:00:18', '2014-10-19 20:00:18', '', 'Donate Cash', '', 'inherit', 'open', 'open', '', '50-revision-v1', '', '', '2014-10-19 20:00:18', '2014-10-19 20:00:18', '', 50, 'http://localhost:8888/50-revision-v1/', 0, 'revision', '', 0),
-(52, 1, '2014-10-19 20:00:48', '2014-10-19 20:00:48', '', 'Give Cash', '', 'inherit', 'open', 'open', '', '50-revision-v1', '', '', '2014-10-19 20:00:48', '2014-10-19 20:00:48', '', 50, 'http://localhost:8888/50-revision-v1/', 0, 'revision', '', 0),
-(53, 1, '2014-10-19 20:02:54', '2014-10-19 20:02:54', '', 'Give Cash', '', 'publish', 'closed', 'closed', '', 'acf_give-cash', '', '', '2014-10-19 20:10:50', '2014-10-19 20:10:50', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=53', 0, 'acf', '', 0),
-(54, 1, '2014-10-19 20:05:23', '2014-10-19 20:05:23', '', 'Give Cash', '', 'inherit', 'open', 'open', '', '50-revision-v1', '', '', '2014-10-19 20:05:23', '2014-10-19 20:05:23', '', 50, 'http://localhost:8888/50-revision-v1/', 0, 'revision', '', 0),
-(55, 1, '2014-10-19 20:11:59', '2014-10-19 20:11:59', '', 'Give Cash', '', 'inherit', 'open', 'open', '', '50-revision-v1', '', '', '2014-10-19 20:11:59', '2014-10-19 20:11:59', '', 50, 'http://localhost:8888/50-revision-v1/', 0, 'revision', '', 0),
-(56, 1, '2014-10-19 20:12:36', '2014-10-19 20:12:36', '', 'Give Stuff', '', 'trash', 'open', 'open', '', 'give-stuff-2', '', '', '2014-10-19 20:18:00', '2014-10-19 20:18:00', '', 0, 'http://localhost:8888/?page_id=56', 0, 'page', '', 0),
-(57, 1, '2014-10-19 20:14:29', '2014-10-19 20:14:29', '', 'Give Stuff', '', 'publish', 'closed', 'closed', '', 'acf_give-stuff', '', '', '2014-10-19 20:14:29', '2014-10-19 20:14:29', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=57', 0, 'acf', '', 0),
-(58, 1, '2014-10-19 20:17:13', '2014-10-19 20:17:13', '', 'Give Stuff', '', 'publish', 'open', 'open', '', 'give-stuff', '', '', '2014-10-19 20:18:06', '2014-10-19 20:18:06', '', 41, 'http://localhost:8888/?page_id=58', 0, 'page', '', 0),
-(59, 1, '2014-10-19 20:17:13', '2014-10-19 20:17:13', '', 'Give Stuff', '', 'inherit', 'open', 'open', '', '58-revision-v1', '', '', '2014-10-19 20:17:13', '2014-10-19 20:17:13', '', 58, 'http://localhost:8888/58-revision-v1/', 0, 'revision', '', 0),
-(60, 1, '2014-10-19 20:17:48', '2014-10-19 20:17:48', '', 'Give Stuff', '', 'inherit', 'open', 'open', '', '58-revision-v1', '', '', '2014-10-19 20:17:48', '2014-10-19 20:17:48', '', 58, 'http://localhost:8888/58-revision-v1/', 0, 'revision', '', 0),
-(61, 1, '2014-10-19 20:18:00', '2014-10-19 20:18:00', '', 'Give Stuff', '', 'inherit', 'open', 'open', '', '56-revision-v1', '', '', '2014-10-19 20:18:00', '2014-10-19 20:18:00', '', 56, 'http://localhost:8888/56-revision-v1/', 0, 'revision', '', 0),
-(62, 1, '2014-10-19 20:18:22', '2014-10-19 20:18:22', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 20:18:22', '2014-10-19 20:18:22', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0),
-(63, 1, '2014-10-19 20:20:27', '2014-10-19 20:20:27', '', 'Volunteer', '', 'inherit', 'open', 'open', '', '12-revision-v1', '', '', '2014-10-19 20:20:27', '2014-10-19 20:20:27', '', 12, 'http://localhost:8888/12-revision-v1/', 0, 'revision', '', 0),
-(64, 1, '2014-10-19 20:23:06', '2014-10-19 20:23:06', '', 'Volunteer', '', 'publish', 'closed', 'closed', '', 'acf_volunteer', '', '', '2014-10-19 20:23:29', '2014-10-19 20:23:29', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=64', 2, 'acf', '', 0);
+(45, 1, '2014-10-19 19:21:56', '2014-10-19 19:21:56', '', 'Donate', '', 'publish', 'closed', 'closed', '', 'acf_donate', '', '', '2014-10-19 19:21:56', '2014-10-19 19:21:56', '', 0, 'http://localhost:8888/?post_type=acf&#038;p=45', 0, 'acf', '', 0),
+(46, 1, '2014-10-19 19:23:09', '2014-10-19 19:23:09', '', 'Donate', '', 'inherit', 'open', 'open', '', '41-revision-v1', '', '', '2014-10-19 19:23:09', '2014-10-19 19:23:09', '', 41, 'http://localhost:8888/41-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -786,7 +605,7 @@ CREATE TABLE `2v_usermeta` (
   `user_id` bigint(20) unsigned NOT NULL DEFAULT '0',
   `meta_key` varchar(255) DEFAULT NULL,
   `meta_value` longtext
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
 
 --
 -- Dumping data for table `2v_usermeta`
@@ -808,14 +627,12 @@ INSERT INTO `2v_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (13, 1, 'show_welcome_panel', '1'),
 (14, 1, 'session_tokens', 'a:1:{s:64:"bf2bc103f08266efa63de4e68dfb9c19bb935b68e9e77553bd2c4510569a8807";i:1413911320;}'),
 (15, 1, '2v_dashboard_quick_press_last_post_id', '31'),
-(16, 1, '2v_user-settings', 'libraryContent=browse&hidetb=1'),
-(17, 1, '2v_user-settings-time', '1413749514'),
+(16, 1, '2v_user-settings', 'libraryContent=browse'),
+(17, 1, '2v_user-settings-time', '1412042069'),
 (18, 1, 'managenav-menuscolumnshidden', 'a:4:{i:0;s:11:"link-target";i:1;s:11:"css-classes";i:2;s:3:"xfn";i:3;s:11:"description";}'),
 (19, 1, 'metaboxhidden_nav-menus', 'a:3:{i:0;s:8:"add-post";i:1;s:12:"add-post_tag";i:2;s:15:"add-post_format";}'),
 (20, 1, 'closedpostboxes_page', 'a:0:{}'),
-(21, 1, 'metaboxhidden_page', 'a:8:{i:0;s:5:"acf_7";i:1;s:6:"acf_34";i:2;s:12:"revisionsdiv";i:3;s:10:"postcustom";i:4;s:16:"commentstatusdiv";i:5;s:11:"commentsdiv";i:6;s:7:"slugdiv";i:7;s:9:"authordiv";}'),
-(22, 1, 'closedpostboxes_acf', 'a:0:{}'),
-(23, 1, 'metaboxhidden_acf', 'a:1:{i:0;s:7:"slugdiv";}');
+(21, 1, 'metaboxhidden_page', 'a:8:{i:0;s:5:"acf_7";i:1;s:6:"acf_34";i:2;s:12:"revisionsdiv";i:3;s:10:"postcustom";i:4;s:16:"commentstatusdiv";i:5;s:11:"commentsdiv";i:6;s:7:"slugdiv";i:7;s:9:"authordiv";}');
 
 -- --------------------------------------------------------
 
@@ -936,17 +753,17 @@ MODIFY `link_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `2v_options`
 --
 ALTER TABLE `2v_options`
-MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=248;
+MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=231;
 --
 -- AUTO_INCREMENT for table `2v_postmeta`
 --
 ALTER TABLE `2v_postmeta`
-MODIFY `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=396;
+MODIFY `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=223;
 --
 -- AUTO_INCREMENT for table `2v_posts`
 --
 ALTER TABLE `2v_posts`
-MODIFY `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=65;
+MODIFY `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=47;
 --
 -- AUTO_INCREMENT for table `2v_terms`
 --
@@ -961,7 +778,7 @@ MODIFY `term_taxonomy_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCRE
 -- AUTO_INCREMENT for table `2v_usermeta`
 --
 ALTER TABLE `2v_usermeta`
-MODIFY `umeta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+MODIFY `umeta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT for table `2v_users`
 --

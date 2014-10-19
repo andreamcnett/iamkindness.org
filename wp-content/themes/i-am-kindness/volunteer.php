@@ -4,12 +4,15 @@ Template Name: Volunteer
  */
 
 get_header(); ?>
+<?php
+$introimage = get_field('intro-image');
+?>
 
-<div class="page-intro">
+<div class="page-intro" style="background-image: url('<?php echo (isset($introimage['url'])) ? ($introimage['url']) : ("") ?>'); ">
 	<div class="page-intro-text">
 		<div class="copy">
-			<h1>Volunteer</h1>
-			<h6>I AM Kindness is always looking for volunteers preform random acts of kindess around the Twin Cities. Spend one afternoon giving make-overs to the elderly or an evening distributing flowers to strangers on Nicolet. Give your email to get started and we’ll reach out before our next event!</h6>
+			<h1><?php echo get_the_title(); ?></h1>
+			<h6><?php the_field('page-intro'); ?></h6>
 		</div>
 	</div>
 </div>
