@@ -4,12 +4,15 @@ Template Name: About
  */
 
 get_header(); ?>
+<?php
+$introimage = get_field('intro-image');
+?>
 
-<div class="about page-intro">
+<div class="about page-intro" style="background-image: url('<?php echo (isset($introimage['url'])) ? ($introimage['url']) : ("") ?>'); ">
 	<div class="page-intro-text">
 		<div class="copy">
-			<h1>About Us</h1>
-			<h6>We’re makers. We’re doers. We’re coming together to inspire confidence in others and ourselves through random acts of kindess. We’re I AM Kindess.</h6>
+			<h1><?php echo get_the_title(); ?></h1>
+			<h6><?php the_field('page-intro'); ?></h6>
 		</div>
 	</div>
 </div>
@@ -17,7 +20,7 @@ get_header(); ?>
 	<div class="left-text green">
 		<div class="module-text">
 			<h2>Random Acts of Kindness</h2>
-			<p>A random act of kindess is a selfless act preformed by someone who wants to make someone else happy. Random acts of kindess make us smile, inspire confidence and encourage us to pass happiness along.</p>
+			<p><?php the_field('volunteer-teaser'); ?>We’re makers. We’re doers. We’re coming together to inspire confidence in others and ourselves through random acts of kindess. We’re I AM Kindess.</p>
 		</div>
 	</div>
 	<div class="right-text teal">

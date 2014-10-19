@@ -21,7 +21,7 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="page-copy">
-		<form class="pure-form pure-form-aligned">
+		<form class="pure-form pure-form-stacked">
 		    <fieldset>
 		        <div class="pure-control-group">
 		            <label for="name">Your Name</label>
