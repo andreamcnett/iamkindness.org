@@ -644,12 +644,6 @@ nav {
         margin: 1em 0 0 0; }
 
 /*pages*/
-.about.page-intro {
-  background-image: url("../../images/about-background.jpg"); }
-
-.volunteer.page-intro {
-  background-image: url("../../images/volunteer-background.jpg"); }
-
 .page-intro {
   height: 350px;
   position: relative;
@@ -669,6 +663,27 @@ nav {
       margin-right: 2.3576515979%;
       width: 48.821174201%; }
       .page-intro .page-intro-text .copy:last-child {
+        margin-right: 0; }
+
+.page-intro-small {
+  height: 170px;
+  position: relative;
+  width: 100%; }
+  .page-intro-small .page-intro-text {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 0 0 0; }
+    .page-intro-small .page-intro-text:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .page-intro-small .page-intro-text .copy {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 48.821174201%; }
+      .page-intro-small .page-intro-text .copy:last-child {
         margin-right: 0; }
 
 .page-modules {

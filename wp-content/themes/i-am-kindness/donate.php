@@ -8,7 +8,7 @@ get_header(); ?>
 $introimage = get_field('intro-image');
 ?>
 
-<div class="about page-intro" style="background-image: url('<?php echo (isset($introimage['url'])) ? ($introimage['url']) : ("") ?>'); ">
+<div class="page-intro" style="background-image: url('<?php echo (isset($introimage['url'])) ? ($introimage['url']) : ("") ?>'); ">
 	<div class="page-intro-text">
 		<div class="copy">
 			<h1><?php echo get_the_title(); ?></h1>

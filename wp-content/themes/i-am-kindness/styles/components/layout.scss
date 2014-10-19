@@ -160,14 +160,6 @@
 
 /*pages*/
 
-.about.page-intro {
-	background-image: url('../../images/about-background.jpg');
-}
-
-.volunteer.page-intro {
-	background-image: url('../../images/volunteer-background.jpg');
-}
-
 .page-intro {
 	height: 350px;
 	position: relative;
@@ -183,6 +175,20 @@
 	}
 }
 
+.page-intro-small {
+	height: 170px;
+	position: relative;
+	width: 100%;
+	.page-intro-text {
+		@include outer-container;
+		padding: 2em 0 0 0;
+
+		.copy {
+			@include span-columns(6);
+		}
+	}
+
+}
 .page-modules {
 	@include outer-container;
 

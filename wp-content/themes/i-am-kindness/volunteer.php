@@ -5,7 +5,7 @@ Template Name: Volunteer
 
 get_header(); ?>
 
-<div class="volunteer page-intro">
+<div class="page-intro">
 	<div class="page-intro-text">
 		<div class="copy">
 			<h1>Volunteer</h1>
