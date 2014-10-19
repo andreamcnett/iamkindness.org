@@ -96,6 +96,10 @@ function i_am_kindness_scripts() {
 
 	wp_enqueue_script( 'i-am-kindness-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
+    wp_enqueue_script( 'images-loaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), '', true);
+
+    wp_enqueue_script( 'i-am-kindness-layout', get_template_directory_uri() . '/js/layout.js', array('masonry'), '20120206', true );
+
 	wp_enqueue_script( 'i-am-kindness-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -131,7 +135,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
 function wpb_adding_scripts() {
 wp_register_script('masonry', plugins_url('masonry.js', __FILE__));
-wp_enqueue_script('masonry');
+wp_enqueue_script('masonry', array('images-loaded'));
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );  

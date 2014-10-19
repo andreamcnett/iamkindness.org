@@ -284,3 +284,20 @@
 		@include span-columns(8);
 	}
 }
+
+/* Blog */
+#masonry-loop {
+    @include outer-container;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 10em;
+    position: relative;
+    width: 60%;
+}
+
+.masonry-entry {
+    @include span-columns(4);
+    background-color: shade(white, 10%);
+    margin-bottom: 2em;
+    padding: 1em;
+}

@@ -789,6 +789,32 @@ nav {
     .page-content .page-copy:last-child {
       margin-right: 0; }
 
+/* Blog */
+#masonry-loop {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 10em;
+  position: relative;
+  width: 60%; }
+  #masonry-loop:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.masonry-entry {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%;
+  background-color: #e5e5e5;
+  margin-bottom: 2em;
+  padding: 1em; }
+  .masonry-entry:last-child {
+    margin-right: 0; }
+
 /***********/
 /* BODY.SCSS */
 /***********/
@@ -873,6 +899,7 @@ a.more .white {
 /***********/
 footer {
   background-color: #c2c2c2;
+  clear: both;
   height: 4em;
   margin-top: 2em; }
   footer .footer-text {

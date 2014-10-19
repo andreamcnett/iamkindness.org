@@ -1,0 +1,1 @@
+var container=document.querySelector("#masonry-loop"),msnry;imagesLoaded(container,function(){msnry=new Masonry(container)});
