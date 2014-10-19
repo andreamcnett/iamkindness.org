@@ -21,12 +21,14 @@ $introimage = get_field('intro-image');
 		<div class="module-text">
 			<h2><?php the_field('left-text-title'); ?></h2>
 			<p><?php the_field('left-text'); ?></p>
+			<a class="more white" href="<?php the_field('left-link'); ?>"><?php the_field('left-link-text'); ?> <i class="fa fa-chevron-right"></i></a>
 		</div>
 	</div>
 	<div class="right-text teal">
 		<div class="module-text">
 			<h2><?php the_field('right-text-title'); ?></h2>
 			<p><?php the_field('right-text'); ?></p>
+			<a class="more white" href="<?php the_field('right-link'); ?>"><?php the_field('right-link-text'); ?> <i class="fa fa-chevron-right"></i></a>
 		</div>
 	</div>
 </div>

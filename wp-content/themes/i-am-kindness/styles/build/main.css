@@ -847,6 +847,9 @@ a.more {
     margin: 0 2em 0 .5em;
     padding: 7px 10px 5px 10px; }
 
+a.more .white {
+  color: white; }
+
 /***********/
 /* FORMS.SCSS */
 /***********/
