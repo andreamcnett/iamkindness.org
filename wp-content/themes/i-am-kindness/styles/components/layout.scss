@@ -204,6 +204,11 @@
 .page-modules {
 	@include outer-container;
 
+	.purple,
+	.teal {
+		padding: 1em;
+	}
+
 	.purple {
 		background-color: $brand-purple;
 		color: white;
@@ -226,6 +231,11 @@
 	.right-text {
 		@include span-columns(6);
 		@include omega;
+		margin-top: 1em;
+	}
+
+	.left-video {
+		@include span-columns(6);
 		margin-top: 1em;
 	}
 
@@ -267,10 +277,6 @@
 			background-color: white;
 		}
 	}
-
-	.donors {
-		background-image: url('../../images/about-donor-background.jpg');
-	}
 }
 
 .page-content {
@@ -296,6 +302,33 @@
 		@include span-columns(8);
 	}
 }
+
+/*about*/
+
+.about {
+	.donors,
+	.volunteers {
+		height: 250px;
+	}
+}
+/* responsive video container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+
+    iframe,
+	object,
+	embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+ 
+
 
 /* Blog */
 #masonry-loop {

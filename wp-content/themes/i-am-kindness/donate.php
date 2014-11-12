@@ -17,7 +17,7 @@ $introimage = get_field('intro-image');
 	</div>
 </div>
 <div class="page-modules">
-	<div class="left-text green">
+	<div class="left-text purple">
 		<div class="module-text">
 			<h2><?php the_field('left-text-title'); ?></h2>
 			<p><?php the_field('left-text'); ?></p>

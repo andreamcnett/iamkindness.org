@@ -6,6 +6,7 @@ Template Name: About
 get_header(); ?>
 <?php
 $introimage = get_field('intro-image');
+$sarahimage = get_field('sarah-image');
 ?>
 
 <div class="about page-intro" style="background-image: url('<?php echo (isset($introimage['url'])) ? ($introimage['url']) : ("") ?>'); ">
@@ -16,30 +17,30 @@ $introimage = get_field('intro-image');
 		</div>
 	</div>
 </div>
-<div class="page-modules">
-	<div class="left-text purple">
-		<div class="module-text">
-			<h2>Random Acts of Kindness</h2>
-			<p><?php the_field('volunteer-teaser'); ?>We’re makers. We’re doers. We’re coming together to inspire confidence in others and ourselves through random acts of kindess. We’re I AM Kindess.</p>
-		</div>
+<div class="about page-modules">
+	<div class="left-video">
+		<iframe width="498" height="280" src="//www.youtube.com/embed/<?php the_field('youtube-video')?>" frameborder="0" allowfullscreen></iframe>
 	</div>
-	<div class="video">
-		<iframe width="560" height="315" src="<?php the_field('video')?>" frameborder="0" allowfullscreen></iframe>
+	<div class="right-text">
+		<h2><?php the_field('video-title')?></h2>
+		<p><?php the_field('video-text')?></p>
 	</div>
-
-
-
-
-	<div class="right-text teal">
-		<div class="module-text">
-			<h2>Our Events</h2>
-			<p>Our events are held about once a month. The focus is always kindness and making others happy. You might find us giving makeovers to nursing home residents one month or handing out flowers to strangers another month. Events are low-stress and non-commital. Come to one or come to the them all!</p>
-		</div>
+	<div class="left-text teal donors">
+		<h2><?php the_field('about-donors-title')?></h2>
+		<p><?php the_field('about-donors-text')?></p>
+	</div>
+	<div class="right-text purple volunteers">
+		<h2><?php the_field('about-volunteers-title')?></h2>
+		<p><?php the_field('about-volunteers-text')?></p>
 	</div>
 	<div class="left-image">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/about-volunteer.jpg" alt="Volunteer" />
+		<img src="<?php echo (isset($sarahimage['url'])) ? ($sarahimage['url']) : ("") ?>" />
 	</div>
-	<div class="right-text white">
+	<div class="right-text">
+		<h2><?php the_field('sarah-title')?></h2>
+		<p><?php the_field('sarah-text')?></p>
+	</div>
+	<!-- <div class="right-text white">
 		<div class="module-text">
 			<h2>Our Volunteers</h2>
 			<p>Our volunteers come from all walks of life but have one thing in common: they like to make people happy. We’re a low-commitment volunteer obligation, but if you really like us, we encourage you to host your own event!</p>
@@ -70,7 +71,7 @@ $introimage = get_field('intro-image');
 	<div class="right-image">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/about-sarah.jpg" alt="Sarah Edwards" />
 	</div>
-</div>
+</div> -->
 
 
 <?php get_footer(); ?>

@@ -702,6 +702,9 @@ nav {
     content: "";
     display: table;
     clear: both; }
+  .page-modules .purple,
+  .page-modules .teal {
+    padding: 1em; }
   .page-modules .purple {
     background-color: #a003b6;
     color: white; }
@@ -726,6 +729,14 @@ nav {
     margin-right: 0;
     margin-top: 1em; }
     .page-modules .right-text:last-child {
+      margin-right: 0; }
+  .page-modules .left-video {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%;
+    margin-top: 1em; }
+    .page-modules .left-video:last-child {
       margin-right: 0; }
   .page-modules .left-image {
     float: left;
@@ -763,8 +774,6 @@ nav {
       color: white; }
     .page-modules .full-background-image i {
       background-color: white; }
-  .page-modules .donors {
-    background-image: url("../../images/about-donor-background.jpg"); }
 
 .page-content {
   max-width: 68em;
@@ -796,6 +805,27 @@ nav {
     width: 65.8807828007%; }
     .page-content .page-copy:last-child {
       margin-right: 0; }
+
+/*about*/
+.about .donors,
+.about .volunteers {
+  height: 250px; }
+
+/* responsive video container */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 /* Blog */
 #masonry-loop {
@@ -847,6 +877,7 @@ h2 {
   font-size: 3em;
   font-style: normal;
   font-weight: 100;
+  line-height: .9em;
   text-transform: uppercase;
   margin: 0; }
 
