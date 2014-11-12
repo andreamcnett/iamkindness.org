@@ -17,12 +17,19 @@ $introimage = get_field('intro-image');
 	</div>
 </div>
 <div class="page-modules">
-	<div class="left-text green">
+	<div class="left-text purple">
 		<div class="module-text">
 			<h2>Random Acts of Kindness</h2>
 			<p><?php the_field('volunteer-teaser'); ?>We’re makers. We’re doers. We’re coming together to inspire confidence in others and ourselves through random acts of kindess. We’re I AM Kindess.</p>
 		</div>
 	</div>
+	<div class="video">
+		<iframe width="560" height="315" src="<?php the_field('video')?>" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+
+
 	<div class="right-text teal">
 		<div class="module-text">
 			<h2>Our Events</h2>

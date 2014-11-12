@@ -32,10 +32,10 @@ h2 {
 
 h5 {
 	color: $brand-teal;
-	font-family: "source-sans-pro",sans-serif;
+	font-family: "proxima-nova",sans-serif;
 	font-size: 1em;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 h6 {
@@ -65,9 +65,9 @@ a.more {
 	text-transform: uppercase;
 
 	i {
-		background-color: $brand-green;
+		background-color: $brand-purple;
 		border-radius: 5px;
-		color: $brand-teal;
+		color: white;
 		font-size: .8em;
 		margin: 0 2em 0 .5em;
 		padding: 7px 10px 5px 10px;

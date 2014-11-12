@@ -18,8 +18,10 @@
 			<div class="contact">
 				<p>hello@iamkindness.com</p>
 			</div>
-			<div class="social">
-				<p><a href="https://www.facebook.com/IAMKINDNESS"><i class="fa fa-facebook"></i></a></p>
+			<ul class="social">
+				<li><a href="https://www.facebook.com/IAMKINDNESS"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="http://instagram.com/iamkindnessmsp"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/IAMKindnessMSP"><i class="fa fa-twitter"></i></a></li>
 			</div>
 		</div>
 	</div>
