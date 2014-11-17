@@ -18,7 +18,6 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href="<?php echo get_template_directory_uri(); ?>/styles/build/main.css" rel="stylesheet">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/forms-min.css">
 
 <script src="//use.typekit.net/tqt7qte.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>

@@ -56,6 +56,14 @@ p {
 	margin: 0 0 1em 0;
 }
 
+li {
+	font-family: "source-sans-pro",sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 300;
+	margin: 0 0 .5em 0;
+}
+
 a.more {
 	color: $brand-teal;
 	font-family: "minion-pro",serif;
@@ -75,6 +83,11 @@ a.more {
 	}
 }
 
-a.more .white {
+a.more.white {
 	color: white;
+
+	i {
+		background-color: white;
+		color: $brand-purple;
+	}
 }
